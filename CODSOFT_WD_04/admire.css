@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom right, #ffff78, #ff63b1);
+}
+
+.header {
+  background-color: orange;
+  height: 90px;
+  align-items: center;
+}
+
+#element {
+  margin-left: 76px;
+}
+
+.header-title {
+  position: relative;
+  top: 20px;
+  left: 550px;
+  width: 600px;
+}
+
+.firstSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 527px;
+}
+
+.leftSection {
+  width: 50%;
+}
+
+.leftSection img {
+  width: 70%;
+  margin: 51px 100px;
+  margin-top: 100px;
+}
+
+.rightSection {
+  width: 50%;
+  font-size: 40px;
+  color: rgb(0, 0, 33);
+  align-items: center;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.admire {
+  margin: 10px 104px;
+}
+
+.admire-title {
+  margin: -10px 77px;
+}
+
+.about {
+  font-size: 20px;
+  color: #3a1f1f;
+  padding: 15px 32px;
+
+  border: 2px solid white;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.quality {
+  font-size: 20px;
+  color: #3a1f1f;
+  padding: 15px 32px;
+  border: 2px solid white;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.nav {
+  margin: 30px 58px;
+}
+
+hr {
+  border: 0;
+  background: #000;
+  height: 1.2px;
+  margin: 0 84px;
+}
+
+.secondSection h1 {
+  color: #1e0c0c;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.secondSection {
+  font-size: 19px;
+  width: 750px;
+  border: 3px solid white;
+  border-radius: 20px;
+  margin: 37px 333px;
+}
+
+.desc {
+  padding-left: 25px;
+  width: 700px;
+  text-align: center;
+  margin: 22px 0;
+}
+
+.quote {
+  padding-left: 25px;
+  width: 700px;
+  text-align: center;
+  margin: 22px 0;
+}
+
+.thirdSection h1 {
+  color: #1e0c0c;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.all-quality {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.qualities {
+  width: 300px;
+  height: 300px;
+  margin-top: 15px;
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.quality-title {
+  font-size: 19px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.quality-desc {
+  font-size: 18px;
+  text-align: center;
+  padding: 1px 23px;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  background-color: #3e382d;
+  color: white;
+  font-size: 18px;
+  height: 70px;
+  padding: 0 397px;
+  margin-top: 50px;
+}
